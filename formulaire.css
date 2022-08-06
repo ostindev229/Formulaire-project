@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(bg-intro-desktop.png);
+	background-color: hsl(0, 100%, 74%);
+	font-family: 'Poppins' sans-serif;
+}
+.bloc{
+	width: 375px;
+	margin-right: 100px;
+	height: 40px;
+	border-radius: 7px;
+	border: none;
+
+	background-color: #5D54A3;
+	opacity: 0.9;
+	color: white;
+	margin-top: 100px;
+}
+.bloc1{
+	width: 375px;
+	border: 1px  black;
+	background-color: white;
+	height: 375px;
+	border-radius: 7px;
+	margin-top: 15px;
+	
+	
+}
+.design{
+	width: 335px;
+	height: 40px;
+	border-radius: 6px;
+	margin-top: 18px;
+	padding: 6px ;
+	border-color: rgb(197, 197, 197);
+	outline-color: #5D54A3;
+	border:1px solid rgba(0, 0, 0, 0.3);
+
+}
+.Last{
+	margin-top: 16px;
+	width: 335px;
+	height: 40px;
+	border-radius: 6px;
+	background-color: hsl(154, 59%, 51%);
+	border: none;
+	color: white;
+}
+.d1{
+	font-size: 9px;
+	text-align: center;
+
+}
+.d2{
+	color: red;
+}
+.d1,.d2{
+	opacity: 0.5;
+}
+.principal{
+display: flex;
+}
+.litteral{
+	margin-top: 220px;
+	font-size: 35px;
+	font-family: Arial Black;
+	color: white;
+	margin-left: 110px;
+}
+.litteral1{
+	font-family: sans-serif;
+	color: white;
+	margin-left: 110px;
+	font-size: 15px;
+	
+}
+.emballage2{
+	margin-left: 50px;
+}
+.emballage1{
+	margin-left: 290px;
+}
+
+@media screen and (max-width: 768px){
+	
+	.emballage1{
+		margin-left: 0px;
+		text-align: center;
+		margin-top: 15px;
+		
+	}
+	.emballage2{
+		margin-left: 0px;
+		
+	}
+	.design{
+		width: 245px;
+	}
+	.bloc,.bloc1 {
+		width: 285px;
+	}
+	.Last{
+		width: 245px;
+	}
+	.principal{
+		display:inline-block ;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.litteral{
+		font-size: 25px;
+		margin: 0px ;
+	}
+	.bloc{
+		height: 80px;
+		font-size: 16px;
+		margin-top: -40px;
+		margin-right: 0px;
+	    display: block;
+	    margin: auto;
+	}
+	body{
+		margin: 0px;
+	}
+	.d3{
+		display: block;
+	}
+	.d4{
+		display: inline-block;
+	}
+	.litteral1{
+    margin-left: 40px;
+    font-size: 18px;
+    margin-right: 32px;
+	}
+	.bloc1{
+		margin: 0px auto;
+		margin-top: 16px;
+	}
+	span{
+		color: rgba(255, 255, 255, 0.8);
+		display: block;
+		font-size: 15px;
+	}
+	}
+
+}
